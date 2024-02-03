@@ -27,3 +27,10 @@ variable "aws_list_instances" {
   type = list(string)
   default = [ "" ]
 }
+
+variable "aws_accesskey" {
+  type = string
+}
+variable "aws_secretkey" {
+  type = string
+}
